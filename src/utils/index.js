@@ -31,7 +31,8 @@ const ETHERSCAN_PREFIXES = {
   3: 'ropsten.',
   4: 'rinkeby.',
   5: 'goerli.',
-  42: 'kovan.'
+  42: 'kovan.',
+  31337: 'buidler'
 }
 
 export function getEtherscanLink(networkId, data, type) {

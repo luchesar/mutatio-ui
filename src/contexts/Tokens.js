@@ -27,13 +27,19 @@ const ETH = {
 }
 
 export const INITIAL_TOKENS_CONTEXT = {
-  1: {
-    '0xB6eD7644C69416d67B522e20bC294A9a9B405B31': {
-      [NAME]: '0xBitcoin Token',
-      [SYMBOL]: '0xBTC',
+  1: { 
+    '0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F': {
+      [NAME]: 'JAL Token 1',
+      [SYMBOL]: 'JAL',
       [DECIMALS]: 8,
-      [EXCHANGE_ADDRESS]: '0x701564Aa6E26816147D4fa211a0779F1B774Bb9B'
+      [EXCHANGE_ADDRESS]: '0x7c2C195CD6D34B8F845992d380aADB2730bB9C6F'
     },
+    // '0xB6eD7644C69416d67B522e20bC294A9a9B405B31': {
+    //   [NAME]: '0xBitcoin Token',
+    //   [SYMBOL]: '0xBTC',
+    //   [DECIMALS]: 8,
+    //   [EXCHANGE_ADDRESS]: '0x701564Aa6E26816147D4fa211a0779F1B774Bb9B'
+    // },
     // '0xfC1E690f61EFd961294b3e1Ce3313fBD8aa4f85d': {
     //   [NAME]: 'Aave Interest bearing DAI',
     //   [SYMBOL]: 'aDAI',
